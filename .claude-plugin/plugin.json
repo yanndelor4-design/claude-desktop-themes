@@ -1,0 +1,7 @@
+{
+  "name": "themes",
+  "version": "2.1.1",
+  "description": "Bibliothèque de 27 thèmes pour Claude Desktop : décors animés, panneau par catégories, thème au hasard ou selon l’heure, création de thèmes à partir de deux couleurs.",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
