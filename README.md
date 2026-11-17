@@ -1,6 +1,6 @@
 # Thèmes pour Claude Desktop
 
-Un mod pour Claude Desktop (onglet Code) qui ajoute **27 thèmes** : des couleurs pour toute l'application et, pour la plupart, un **décor animé** en fond d'écran, tous dessinés en vectoriel (SVG), sans image à télécharger.
+Un mod pour Claude Desktop (onglet Code) qui ajoute **35 thèmes** : des couleurs pour toute l'application et, pour la plupart, un **décor animé** en fond d'écran, tous dessinés en vectoriel (SVG), sans image à télécharger.
 
 - Un **panneau « Thèmes »** à côté de la conversation, avec une vignette par thème, rangés par catégories.
 - Un thème **choisi une fois, gardé** d'une session à l'autre.
@@ -12,11 +12,12 @@ Un mod pour Claude Desktop (onglet Code) qui ajoute **27 thèmes** : des couleur
 
 | Catégorie | Thèmes |
 |---|---|
-| Rétro | Windows 95, Windows 98, Rétro années 90, Violet néon |
+| Rétro | Windows 95, Windows 98, Rétro années 90, Vaporwave, Violet néon |
 | Nature | Plage, Montagne, Forêt, Coucher de soleil, Neige, Désert, Océan, Aurore boréale, Volcan, Jungle |
 | Espace | Planètes, Lune, Galaxie |
 | Véhicules | Voiture de sport, Avion, F1 Flèches d'argent, Circuit F1 de nuit, Technologie |
-| Villes | Monuments (Paris), Pyramides, Rue de nuit, Gratte-ciel, Tokyo de nuit |
+| Villes | Monuments (Paris), Pyramides, Rue de nuit, Gratte-ciel, Tokyo de nuit, Cyberpunk |
+| Ambiances | Cottage féerique, Automne cosy, Rêve pastel, Japandi, Roses vintage, Lo-fi : bureau de nuit |
 
 Les décors sont des dessins originaux. Les thèmes « Windows 95 » et « Windows 98 » sont des clins d'œil dessinés à la main, sans aucun logo ni élément de Microsoft.
 

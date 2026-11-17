@@ -1,3 +1,4 @@
+import { AMBIANCE_THEMES } from './ambiances.js'
 import { EXTRA_THEMES } from './autres.js'
 import { SPACE_THEMES } from './espace.js'
 import { NATURE_THEMES } from './nature.js'
@@ -24,6 +25,7 @@ export const BUILTIN_THEMES: readonly Theme[] = [
   ...CITY_THEMES,
   ...EXTRA_THEMES,
   ...NEW_THEMES,
+  ...AMBIANCE_THEMES,
 ]
 
 export const DEFAULT_THEME_ID = windows95.id

@@ -4,16 +4,17 @@
  * Un thème qui n'est pas listé ici va dans « Autres ». Les thèmes créés par l'utilisateur
  * sont dans « Mes thèmes ».
  */
-export const CATEGORY_NAMES = ['Rétro', 'Nature', 'Espace', 'Véhicules', 'Villes', 'Mes thèmes', 'Autres'] as const
+export const CATEGORY_NAMES = ['Rétro', 'Nature', 'Espace', 'Véhicules', 'Villes', 'Ambiances', 'Mes thèmes', 'Autres'] as const
 
 export type CategoryName = (typeof CATEGORY_NAMES)[number]
 
 const MEMBERS: Record<Exclude<CategoryName, 'Mes thèmes' | 'Autres'>, readonly string[]> = {
-  Rétro: ['windows-95', 'windows-98', 'retro-90', 'violet-neon'],
+  Rétro: ['windows-95', 'windows-98', 'retro-90', 'vaporwave', 'violet-neon'],
   Nature: ['plage', 'montagne', 'foret', 'coucher-soleil', 'neige', 'desert', 'ocean', 'aurore-boreale', 'volcan', 'jungle'],
   Espace: ['planetes', 'lune', 'galaxie'],
   Véhicules: ['voiture-sport', 'avion', 'f1-fleches-argent', 'circuit-f1-nuit', 'technologie'],
-  Villes: ['monuments-paris', 'pyramides', 'rue-nuit', 'gratte-ciel', 'tokyo-nuit'],
+  Villes: ['monuments-paris', 'pyramides', 'rue-nuit', 'gratte-ciel', 'tokyo-nuit', 'cyberpunk'],
+  Ambiances: ['cottage-feerique', 'automne-cosy', 'reve-pastel', 'japandi', 'roses-vintage', 'lofi-bureau'],
 }
 
 export function categoryOf(themeId: string, isUser: boolean): CategoryName {

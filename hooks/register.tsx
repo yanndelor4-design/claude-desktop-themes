@@ -14,7 +14,7 @@ const BLOCKING = "Desktop won't paint"
 const PANE = 'themes'
 const SCHEDULE_CHECK_MS = 5 * 60 * 1000
 
-/** « Mercedes F1 » → « mercedes-f1 » : un nom de thème utilisable partout. */
+/** « Mon thème 1 » → « mon-theme-1 » : un nom de thème utilisable partout. */
 const slugify = (name: string): string =>
   name
     .normalize('NFD')
